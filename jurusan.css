@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&display=swap");
+/* font-family: "Agbalumo"; */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+/* font-family: 'Roboto Slab', serif; */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* font-family: 'Poppins', sans-serif; */
+
+* {
+  font-family: "Poppins";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a:hover {
+  color: blue;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  background-color: aliceblue;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  border-bottom: black solid 1px;
+  top: 0;
+  z-index: 9999;
+}
+
+nav img {
+  margin-left: 20px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  font-weight: bolder;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  margin-top: 15vh;
+  text-align: center;
+}
+
+main h1 {
+  color: #1728ab;
+  font-size: 45px;
+}
+
+main h1 > span {
+  color: #ff9041;
+  font-family: "Roboto Slab";
+}
+
+main p {
+  font-size: 16px;
+}
+
+#jurusan {
+  max-width: 80vw;
+  margin: 3vh auto;
+  display: grid;
+}
+
+#jurusan h3 {
+  color: #1728ab;
+}
+
+#jurusan svg {
+  width: 10vw;
+  fill: #1728ab;
+}
+
+.jurusan1 {
+  display: flex;
+}
+
+#dpib {
+  margin: 10px auto;
+  width: 20vw;
+  box-sizing: border-box;
+  position: relative;
+  padding: 58px 30px 50px 30px;
+  border: 2px solid #f7f7f7;
+  border-radius: 10px;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+#dpib:hover {
+  border: 2px solid #141f72;
+}
+
+#titl {
+  margin: 10px auto;
+  width: 20vw;
+  box-sizing: border-box;
+  position: relative;
+  padding: 58px 30px 50px 30px;
+  border: 2px solid #f7f7f7;
+  border-radius: 10px;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+#titl:hover {
+  border: 2px solid #141f72;
+}
+
+#tpm {
+  margin: 10px auto;
+  width: 20vw;
+  box-sizing: border-box;
+  position: relative;
+  padding: 58px 30px 50px 30px;
+  border: 2px solid #f7f7f7;
+  border-radius: 10px;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+#tpm:hover {
+  border: 2px solid #141f72;
+}
+
+.jurusan2 {
+  display: flex;
+}
+#tkro {
+  margin: 10px auto;
+  width: 20vw;
+  box-sizing: border-box;
+  position: relative;
+  padding: 58px 30px 50px 30px;
+  border: 2px solid #f7f7f7;
+  border-radius: 10px;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+#tkro:hover {
+  border: 2px solid #141f72;
+}
+
+#tkj {
+  margin: 10px auto;
+  width: 20vw;
+  box-sizing: border-box;
+  position: relative;
+  padding: 58px 30px 50px 30px;
+  border: 2px solid #f7f7f7;
+  border-radius: 10px;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+#tkj:hover {
+  border: 2px solid #141f72;
+}
+
+#rpl {
+  margin: 10px auto;
+  width: 20vw;
+  box-sizing: border-box;
+  position: relative;
+  padding: 58px 30px 50px 30px;
+  border: 2px solid #f7f7f7;
+  border-radius: 10px;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+#rpl:hover {
+  border: 2px solid #141f72;
+}
+
+.jurusan3 {
+  display: flex;
+}
+#tsm {
+  margin: 10px auto;
+  width: 20vw;
+  box-sizing: border-box;
+  position: relative;
+  padding: 58px 30px 50px 30px;
+  border: 2px solid #f7f7f7;
+  border-radius: 10px;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+#tsm:hover {
+  border: 2px solid #141f72;
+}
+
+#ki {
+  margin: 10px auto;
+  width: 20vw;
+  box-sizing: border-box;
+  position: relative;
+  padding: 58px 30px 50px 30px;
+  border: 2px solid #f7f7f7;
+  border-radius: 10px;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+#ki:hover {
+  border: 2px solid #141f72;
+}
+
+#tei {
+  margin: 10px auto;
+  width: 20vw;
+  box-sizing: border-box;
+  position: relative;
+  padding: 58px 30px 50px 30px;
+  border: 2px solid #f7f7f7;
+  border-radius: 10px;
+  transition: border-color 0.3s ease, color 0.3s ease;
+}
+
+#tei:hover {
+  border: 2px solid #141f72;
+}
+
+#informasi {
+  display: flex;
+  justify-content: center;
+  background-color: #2d2d2d;
+  color: white;
+  height: 350px;
+  padding: 50px 0px;
+}
+
+#informasi h2 {
+  text-align: left;
+}
+
+#informasi iframe {
+  margin-right: 15px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+#informasi p {
+  font-size: small;
+  opacity: 0.7;
+}
+
+#informasi td {
+  text-align: left;
+  padding-left: 10px;
+}
+
+footer {
+  background-color: #1e1e1eff;
+  color: white;
+  text-align: center;
+  height: 15vh;
+  padding: 6vh 0vw;
+}
