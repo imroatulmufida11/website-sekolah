@@ -1,0 +1,99 @@
+/* kontak.css */
+
+/* Style untuk navigasi */
+nav {
+    background-color: #504f4f;
+    color: #ffffff;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Style untuk judul halaman */
+  h1 {
+    font-size: 36px;
+    color: #000000;
+  }
+  
+  /* Style untuk form kontak */
+  #form {
+    margin-bottom: 20px;
+    padding: 20px;
+    color: #000000;
+    font-weight: bolder;
+  }
+  
+  #form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #form input[type="text"],
+  #form input[type="email"],
+  #form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  #form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+#textarea {
+    color: white;
+    border-radius: 10px;
+    padding: 12px 20px;
+    background-color: aliceblue;
+    transition: outline 0.3s ease, color 0.3s ease;
+}
+
+  
+  /* Style untuk informasi kontak */
+  #alamat {
+    margin-top: 20px;
+  }
+  
+  #alamat table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #alamat th,
+  #alamat td {
+    padding: 10px;
+    border: 1px solid #333;
+  }
+  
+  #alamat th {
+    background-color:#504f4f;
+    color: #fff;
+  }
+  
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  #sosmed a {
+    margin-right: 10px;
+  }
