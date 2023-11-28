@@ -1,9 +1,6 @@
-/* kontak.css */
-
-/* Style untuk navigasi */
 nav {
-    background-color: #504f4f;
-    color: #ffffff;
+    background-color:rgb(75, 75, 87);
+    color: aliceblue;
     padding: 10px;
   }
   
@@ -22,13 +19,11 @@ nav {
     color: #fff;
   }
   
-  /* Style untuk judul halaman */
   h1 {
     font-size: 36px;
-    color: #000000;
+    color: #ff9041;
   }
   
-  /* Style untuk form kontak */
   #form {
     margin-bottom: 20px;
     padding: 20px;
@@ -65,7 +60,6 @@ nav {
 }
 
   
-  /* Style untuk informasi kontak */
   #alamat {
     margin-top: 20px;
   }
